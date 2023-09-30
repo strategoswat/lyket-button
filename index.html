@@ -3,20 +3,28 @@
     <style>
       p.love {
         font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-        font-size: 16px;
+        font-size: 12px;
         line-height: 1.5;
-        text-align: center
+        text-align: center;
+      }
+      .border-box {
+        border-radius: 20px !important;
+    		border: none !important;
+        box-shadow: 2px 2px 12px #dadada, -1px -1px 12px #ffffff !important;
+    		background: #ffffff !important;
       }
     </style>
   </head>
   <body>
-    <p class="love">Regala amore al Team</p>
-    <div
-      data-lyket-type="like"
-      data-lyket-id="start-page"
-      data-lyket-template="twitter"
-      style="text-align: center;"
-     />
+    <div class="border-box">
+      <p class="love">Regala amore al Team</p>
+      <div
+        data-lyket-type="like"
+        data-lyket-id="start-page"
+        data-lyket-template="twitter"
+        style="text-align: center;"
+       />
+    </div>
 
     <script src="https://unpkg.com/@lyket/widget@latest/dist/lyket.js?apiKey=pt_e333f0a6edeca8068bb100ad65f657"></script>
   </body>
